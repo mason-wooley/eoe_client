@@ -8,8 +8,8 @@
 
 # testing
 /coverage
-.bat
-.txt
+*.bat
+*.txt
 
 # production
 /build
