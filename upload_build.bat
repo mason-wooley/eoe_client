@@ -1,0 +1,1 @@
+scp -r -i ~/.ssh/google_compute_engine ./build/* Mason@34.74.205.95:/var/www/envyofeden.com/html/

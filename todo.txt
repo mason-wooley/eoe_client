@@ -1,0 +1,47 @@
+- Fetch spec info from blizzard API for site usage
+	- I have data stored in database currently, might be unnecessary
+- Build blizzard API limiter/controller
+- Clean up the code in the apply page. Split into components/functions
+- Store HTML color codes for classes on database?
+- Add specs the guild is recruiting (and admin ability to change)
+- Add ability to change questions as an admin
+- Fetch all data on site load for later use (possible solution is to store it on the
+  database, and then it loads lightning quick on page load similar to applications page.
+  Hint: look up node-schedule package and implement this)
+	- Really important data needs to be stored in the global state for speedy loads
+- Make site pretty
+- Rewrite the site to use functions/modern React instead of classes
+- Organize & structure site to be more legible/intuitive
+- Make pages wait for load before display
+- Fix issue with multiple calls/loads on each page
+	- Seems to be fixed? Needs more testing
+- Figure out why server is generating so much bloat text
+- Separate the client and server into different projects
+- Set up git and get VM to pull code from git
+- Combine the api calls for Apply page into central area (no need for 2 spec info calls)
+- Fix the website to work if application collection is empty. Crashes on empty currently
+- Error checking on submit for Apply page. You can submit before the questions have been
+  fetched currently. It's unlikely since all the questions need to be filled out before 
+  submitting, but still possible.
+	- Also check other Promise dependencies on the website.
+- Time on the applications is showing up in the format "May 3, 2021 undefined:37 
+  undefined"
+- Change the hover color for the scrollbar to be a bit darker. Currently matches bg 
+  color
+- Verify that outside requests to the API server can't happen
+- Make javascript files hidden/useless for the public site. They all show in source 
+  currently
+- Move the keys for auth0/Blizzard API into .env file
+- Make site work on mobile
+- Fix the active button color when not hovered (click the button twice and it's blue)
+- Add bosses killed section
+- Add Twitch streams
+- Add kill videos
+- Add a clean text box for Home, and About (match color from apply)
+
+COMPLETE
+(x) Add the questions to a database and fetch them
+(x) Add custom spec/offspec form to the application
+(x) Add times to the application entries
+(x) Restructure the submitted application to be an object/dynamic
+(x) Remove all console.log() from the website for production
