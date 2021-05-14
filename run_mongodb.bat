@@ -1,1 +1,0 @@
-mongod --dbpath D:\Programming\Web\eoe_client\data\db --auth
